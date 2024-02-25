@@ -16,12 +16,12 @@ export default function Navbar(props) {
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">{props.aboutText}</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              </li>
+              // <li className="nav-item">
+              //   <a className="nav-link active" aria-current="page" href="#">{props.aboutText}</a>
+              // </li>
+              // <li class="nav-item">
+              //   <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              // </li>
 
             </ul>
             {/* <form className="d-flex" role="search">

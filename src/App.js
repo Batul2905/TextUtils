@@ -1,7 +1,7 @@
 import './App.css';
-import About from './components/About';
+// import About from './components/About';
 import Navbar from './components/Navbar';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import TextForm from './components/TextForm';
 import React, {useState} from "react";
 import Alert from './components/Alert';
@@ -50,7 +50,7 @@ function App() {
       </Route>
       <Route exact path="/"> */}
         <TextForm showAlert= {showAlert} heading="Enter the text to analyze below" mode={mode}/>
-        <About/>
+        // <About/>
       {/* </Route>
       <Route exact path="/contact">
         <Contact />
